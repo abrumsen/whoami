@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://www.abrumsen.be"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Theme stuff
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+# My additions
+title = "abrumsen"
+minify_html = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+theme = "toggle"
+socials = [
+  { name = "linkedin", url = "https://www.linkedin.com/in/adriaan-brumsen-833856264/", icon = "linkedin" },
+  { name = "github", url = "https://github.com/abrumsen", icon = "github" },
+  { name = "codeberg", url = "https://codeberg.org/abrumsen", icon = "codeberg" }
+]
+menu = [
+  { name = "/about", url = "", weight = 1 },
+  { name = "/projects", url = "projects", weight = 2 }
+]
