@@ -9,6 +9,8 @@ codeberg = "https://codeberg.org/abrumsen/Cabal"
 tags = ["go", "python"]
 +++
 
+{% align(to="justify") %}
+
 # Abstract
 
 Command and Control (C2) frameworks are post-exploitation tools that enable persistent, covert and remote operator access to compromised endpoints.
@@ -22,8 +24,4 @@ By designing and implementing every component of the Command and Control infrast
 I aim to gain practical insights into different persistence and evasion mechanisms across both Windows and Linux machines.
 I believe this is the most effective way to truly understand and ultimately defend against sophisticated cyber threats.
 
----
-
-# Architecture
-
-TODO
+{% end %}

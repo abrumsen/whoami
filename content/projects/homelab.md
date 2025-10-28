@@ -8,5 +8,3 @@ date = 2025-07-24
 codeberg = "https://codeberg.org/abrumsen/homelab"
 tags = ["docker"] 
 +++
-
-TODO: add homelab setup description here

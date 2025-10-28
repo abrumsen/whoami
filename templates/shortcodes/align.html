@@ -1,0 +1,3 @@
+<div style="text-align: {{ to | default(value='left') }};">
+    {{- body | markdown(inline=true) | safe -}}
+</div>
