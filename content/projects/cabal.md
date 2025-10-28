@@ -13,15 +13,17 @@ tags = ["go", "python"]
 
 # Abstract
 
-Command and Control (C2) frameworks are post-exploitation tools that enable persistent, covert and remote operator access to compromised endpoints.
-However, modern security defenses are highly effective at detecting known C2 signatures, posing a significant challenge for red team operations.
-Consequently, relying on established frameworks presents two limitations: it removes the opportunity to truly understand persistence and evasion techniques,
-while also compromising the accuracy of a security assessment.
+Command and Control (C2) frameworks are the standard tools used for simulating post-exploitation in a red team engagement as 
+they allow operators to establish the persistent, covert, and organized remote access necessary to accurately mimic a sophisticated adversary.
 
-This documentation outlines the process of building my own C2 framework from the ground up.
-The primary motivation for this project is to put my theoretical knowledge of threat actor techniques to the test using a hands-on approach.
-By designing and implementing every component of the Command and Control infrastructure,
-I aim to gain practical insights into different persistence and evasion mechanisms across both Windows and Linux machines.
-I believe this is the most effective way to truly understand and ultimately defend against sophisticated cyber threats.
+However, modern security defenses are highly effective at detecting signatures from over-used C2 agents such as Metasploit's meterpreter or Sliver's implants.
+Consequently, relying on these established frameworks during red team engagements presents two limitations:
+firstly, it fails to accurately test a target environment against a novel attacker.
+Secondly, it hinders operator development, removing the need and the opportunity to truly understand the underlying persistence and evasion techniques.
+
+Therefore, to overcome these limitations and ensure realistic threat emulation, we must move beyond established standards. 
+This is why I decided to develop Cabal, my very own C2 framework.
+Cabal serves as a personal deep dive into the capabilities a modern C2 should have, 
+allowing me to put my theoretical knowledge of threat actor techniques to the test using a hands-on approach.
 
 {% end %}
