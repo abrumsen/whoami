@@ -21,10 +21,17 @@ template = "homepage.html"
 
 <div class="homepage-hero">
     <h1 class="homepage-hero-title">A. Brumsen</h1>
-    <p class="homepage-hero-subtitle">Student - Master's in Computer Systems Architecture @ HEPL</p>
+    <p class="homepage-hero-subtitle">Aspiring Penetration Tester & Ethical Hacker</p>
 </div>
 
-# Under construction
+{% align(to="justify") %}
 
-I'm temporarily dedicating all my energy to an **insane amount of deadlines and projects** for my master's degree. 
-Check back soon: once I've emerged from the academic trenches, I'll have an awesome site ready for you!
+# About
+
+I am a cybersecurity passionate and a CTF enthusiast. 
+I aspire to become a penetration tester and ethical hacker to bridge the gap between vulnerabilities and remediation before attackers do.
+I keep up to date on the latest security findings to translate them into insights, tooling or CTF challenges :).
+
+Other topics of interest include Linux/BSDs, digital freedom and machine learning/AI.
+
+{% end %}
